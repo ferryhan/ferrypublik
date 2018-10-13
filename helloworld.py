@@ -8,12 +8,12 @@ from googletrans import Translator
 import ast, codecs, json, os, pytz, re, random, requests, sys, time, urllib.parse
 
 client = LINE()
-#client = LINE("EwBCEUwULBwOrdEzXo8c.k22jtIKVk8NTeigAgvYfda.Rx0g501fqcE60YK6z/qMlqjnrC6xIYzYicYnJrqSvn0=")
+#client = LINE("ExE5gDLIHoiyfzrSSwV2.Kp+R+4W0bds9r3UKTwUiGG.ilNg8ITij59czLUxeuI23KuvAPVJV2pW69puvkwvrnI=")
 
 clientMid = client.profile.mid
 clientStart = time.time()
 clientPoll = OEPoll(client)
-admin = "u2b6d894e292f2bc9ed10819a195c850c"
+admin = "u90ffebff8c340434bd477ba4b56b8882"
 
 languageOpen = codecs.open("language.json","r","utf-8")
 readOpen = codecs.open("read.json","r","utf-8")
@@ -108,7 +108,7 @@ def menuHelp():
 				"│ " + key + "Translate" + "\n" + \
 				"│ " + key + "TextToSpeech" + "\n" + \
 				"╰─────────────" + "\n" + \
-				" ⛒ line.me/ti/p/~Myyepz ⛒"
+				" ⛒ line.me/ti/p/~ferryhan88 ⛒"
 				
 	return menuHelp
 
@@ -134,7 +134,7 @@ def menuHelp1():
                  "│ " + key + "GetCover @Mention" + "\n" + \
                  "│ " + key + "StealCover「Mention」" + "\n" + \
                  "╰─────────────" + "\n" + \
-                 " ⛒ line.me/ti/p/~Myyepz ⛒"
+                 " ⛒ line.me/ti/p/~ferryhan88 ⛒"
                  
     return menuHelp1
 
@@ -153,7 +153,7 @@ def menuHelp2():
                  "│ " + key + "PendingList" + "\n" + \
                  "│ " + key + "GroupInfo" + "\n" + \
                  "╰─────────────" + "\n" + \
-                 " ⛒ line.me/ti/p/~Myyepz ⛒"
+                 " ⛒ line.me/ti/p/~ferryhan88 ⛒"
                  
     return menuHelp2
 
@@ -171,7 +171,7 @@ def helpmessage3():
 				  "│ " + key + "Lurking 「On/Off」" + "\n" + \
 				  "│ " + key + "Lurking" + "\n" + \
                   "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~Myyepz ⛒"
+                  " ⛒ line.me/ti/p/~ferryhan88 ⛒"
                   
     return helpmessage3
 
@@ -190,7 +190,7 @@ def helpmessage4():
 				  "│ " + key + "SearchLyric 「Search」" + "\n" + \
 				  "│ " + key + "SearchYoutube 「Search」" + "\n" + \
                   "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~Myyepz ⛒"
+                  " ⛒ line.me/ti/p/~ferryhan88 ⛒"
                   
     return helpmessage4
 
@@ -215,7 +215,7 @@ def helpmessage5():
 				  "│ " + key + "SetAutoResponMessage: 「text」" + "\n" + \
 				  "│ " + key + "SetAutoJoinMessage: 「Text」" + "\n" + \
                   "╰─────────────" + "\n" + \
-                  " ⛒ line.me/ti/p/~Myyepz ⛒"
+                  " ⛒ line.me/ti/p/~ferryhan88 ⛒"
                   
     return helpmessage5
 
