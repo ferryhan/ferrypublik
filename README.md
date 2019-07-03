@@ -4,7 +4,7 @@
 
 ----
 
-# JANGAN LUPA ADD [⛒ɓ̷ℓ̷α̷ɓ̷ℓ̷α̷ ̷ɓ̷σ̷т̷⛒](ferryhan88)
+# JANGAN LUPA ADD [Dana ̷ɓ̷σ̷т̷⛒](ferryhan88)
 # SC Sementara Sewaktu Waktu Akan Di Update
 
 # Termux
